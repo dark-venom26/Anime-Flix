@@ -1,0 +1,54 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    height: 351px;
+    border-radius: 15px;
+    background-color: #010008;
+    text-decoration: none;
+}
+
+.card .cardTop img{
+    width: 234px;
+    height: 257px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.animeName{
+    margin-top: 11px;
+    padding: 0 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.animeDescription{
+    margin-top: 9px;
+    padding: 0 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.duration{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    flex-direction: row-reverse;
+    margin-top: 7px;  
+    margin-right: 19px;
+}

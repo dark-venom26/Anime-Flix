@@ -1,0 +1,5 @@
+.center{
+    height: calc(100vh - 100px);
+    text-align: center;
+    margin-top: 120px;
+}

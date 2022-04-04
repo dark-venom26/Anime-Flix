@@ -1,0 +1,29 @@
+.mainSection{
+    width: 90%;
+    margin: 100px auto 0 auto;
+    padding: 0 50px;
+}
+
+.heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    color: #010008;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cardLists{
+    display: flex;
+    column-gap: 120px;
+    margin: 0 auto;
+}
+
+.collections{
+    margin: 20px 0 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 70px;
+}

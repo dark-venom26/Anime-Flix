@@ -1,0 +1,145 @@
+.detailSection{
+    position: relative;
+}
+
+.animeCover{
+    margin-top: 84.3px;
+    height: 100vh;
+}
+
+.animeCover img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.animeCover .backgroundColor{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background: rgba(1, 0, 8, 0.7);
+    z-index: 1;
+}
+
+.animeDetails{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animeView{
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+
+.animeCard{
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    height: 542px;
+    align-items: center;
+}
+
+.animeImage{
+    display: flex;
+    position: relative;
+    width: 296px;
+    height: 436px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.animeImage img{
+    width: 296px;
+    height: 436px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cardPrimaryData{
+    position: absolute;
+    border-radius: 0px 15px;
+    width: 150px;
+    height: 42px;
+    background: #010008;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.trending{
+    top: 0;
+    right: 0;
+}
+
+
+.animeDuration{
+    bottom: 0;
+    left: 0;
+}
+
+.watchNow{
+    display: flex;
+    margin: 26px 0 26px 0;
+    width: 281px;
+    height: 69px;
+    justify-content: center;
+    align-items: center;
+    background: #010008;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+.animeAbout{
+    padding: 0 0 0 116px;
+    width: 100%;
+}
+
+.aboutBlock{
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.blockHeading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-right: 90px;
+    min-width: 212px;
+}
+
+.blockContent{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
